@@ -1,0 +1,55 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.widget {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.widget:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+/* 날씨 위젯 스타일 */
+#weather-widget {
+  background-color: #87CEEB;
+  color: #ffffff;
+}
+
+/* 캘린더 위젯 스타일 */
+#calendar-widget {
+  background-color: #FFD700;
+  color: #343a40;
+}
+
+/* 메모 위젯 스타일 */
+#memo-widget {
+  background-color: #98FB98;
+  color: #343a40;
+}
